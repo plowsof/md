@@ -3,12 +3,12 @@ site_url: https://www.mkdocs.org/
 site_description: Project documentation with Markdown.
 site_author: MkDocs Team
 
-repo_url: https://github.com/mkdocs/mkdocs/
-edit_uri: blob/master/docs/
+repo_url: https://github.com/plowsof/md/
+edit_uri: blob/latest_mkdocs/docs/
 
 theme:
   name: material
-  #custom_dir: material/overrides
+  custom_dir: mkdocs-material/material/overrides
   features:
     - announce.dismiss
     - content.action.edit
@@ -101,6 +101,9 @@ hooks:
   - docs/hooks.py
 
 plugins:
+  - git-revision-date-localized
+  - privacy
+  - git-authors
   - search
   - redirects:
       redirect_maps:
