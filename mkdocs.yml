@@ -64,14 +64,53 @@ theme:
     logo: logo
 
 nav:
-  - Home: index.md
-  - Getting Started: getting-started.md
-  - User Guide: user-guide/
-  - Developer Guide: dev-guide/
-  - About:
-    - Release Notes: about/release-notes.md
-    - Contributing: about/contributing.md
-    - License: about/license.md
+  - Home: 'index.md'
+  - Interacting:
+    - Download: 'interacting/download-monero-binaries.md'
+    - Verify: 'interacting/verify-monero-binaries.md'
+    - Overview: 'interacting/overview.md'
+    - Config file: 'interacting/monero-config-file.md'
+    - monerod: 'interacting/monerod-reference.md'
+    - monero-wallet-cli: 'interacting/monero-wallet-cli-reference.md'
+    - monero-wallet-gui: 'interacting/monero-wallet-gui-reference.md'
+    - monero-wallet-rpc: 'interacting/monero-wallet-rpc-reference.md'
+    - monero-blockchain-export: 'interacting/monero-blockchain-export-reference.md'
+    - monero-blockchain-import: 'interacting/monero-blockchain-import-reference.md'
+  - Technical specs: 'technical-specs.md'
+  - Cryptography:
+      - Introduction: 'cryptography/introduction.md'
+      - Asymmetric:
+        - Introduction: 'cryptography/asymmetric/introduction.md'
+        - Private keys: 'cryptography/asymmetric/private-key.md'
+        - Public keys: 'cryptography/asymmetric/public-key.md'
+        - Edwards25519 curve: 'cryptography/asymmetric/edwards25519.md'
+        - Key image: 'cryptography/asymmetric/key-image.md'
+      - Base58: 'cryptography/base58.md'
+      - PRNG: 'cryptography/prng.md'
+      - 'Keccak-256': 'cryptography/keccak-256.md'
+  - Address:
+      - Standard: 'public-address/standard-address.md'
+      - Subaddress: 'public-address/subaddress.md'
+      - Integrated: 'public-address/integrated-address.md'
+  - Proof of Work:
+      - What is PoW?: 'proof-of-work/what-is-pow.md'
+      - PoW in Cryptocurrencies: 'proof-of-work/pow-in-cryptocurrencies.md'
+      - CryptoNight: 'proof-of-work/cryptonight.md'
+      - RandomX: 'proof-of-work/random-x.md'
+  - Multisignature: 'multisignature.md'
+  - Infrastructure:
+      - Mainnet, stagenet, testnet: 'infrastructure/networks.md'
+      - Tor onion seed nodes: 'infrastructure/tor-onion-p2p-seed-nodes.md'
+      - MoneroPulse: 'infrastructure/monero-pulse.md'
+  - Running a Node:
+    # - On your Laptop: 'localhost-node.md'
+    # - Remote Node: 'remote-node.md'
+    # - Open Remote Node: 'open-remote-node.md'
+    - Open Node + Tor Onion: 'running-node/open-node-tor-onion.md'
+  - Cold storage:
+      - Offline Transaction Signing: 'cold-storage/offline-transaction-signing.md'
+  - Accepting Monero:
+      - Overview: 'accepting-monero/overview.md'
 
 extra_css:
   - css/extra.css
@@ -101,9 +140,11 @@ hooks:
   - docs/hooks.py
 
 plugins:
-  - git-revision-date-localized
+  #coolify does not clone the git repo deep enough
+  #or issues with docker not copying .git folder 
+  #- git-revision-date-localized
   - privacy
-  - git-authors
+  #- git-authors
   - search
   - redirects:
       redirect_maps:
