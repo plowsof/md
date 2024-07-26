@@ -26,7 +26,7 @@ RUN git fetch --all
 #RUN git checkout -f ${COOLIFY_BRANCH}
 RUN git checkout -f latest_mkdocs_test
 
-RUN pip install mkdocs mkdocs-minify-plugin markdown-callouts mdx_gh_links mkdocs-click mkdocs-redirects mkdocs-autorefs mkdocs-literate-nav mkdocstrings[python] mkdocs-git-committers-plugin-2 mkdocs-git-revision-date-localized-plugin
+RUN pip install mkdocs mkdocs-minify-plugin markdown-callouts mdx_gh_links mkdocs-click mkdocs-redirects mkdocs-autorefs mkdocs-literate-nav mkdocstrings[python] mkdocs-git-committers-plugin-2 mkdocs-static-i18n[material] mkdocs-git-revision-date-localized-plugin
 
 RUN pip install mkdocs-material==9.5.30
 

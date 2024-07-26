@@ -141,13 +141,23 @@ hooks:
 
 plugins:
   #coolify does not clone the git repo deep enough
-  #or issues with docker not copying .git folder 
-  - git-revision-date-localized
+  #or issues with docker not copying .git folder
   - privacy
   - git-committers:
       repository: plowsof/md
       branch: latest_mkdocs_test
       token: !ENV ["GH_TOKEN"]
+  - i18n:
+      docs_structure: suffix
+      languages:
+        - locale: en
+          default: true
+          name: English
+          build: true
+        - locale: fr
+          name: Français
+          build: true
+  - git-revision-date-localized
   - search
   - redirects:
       redirect_maps:
