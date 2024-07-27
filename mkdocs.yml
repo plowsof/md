@@ -1,14 +1,14 @@
-site_name: MkDocs
-site_url: https://www.mkdocs.org/
+site_name: Monerodocs
+site_url: https://www.md.monerodevs.org/
 site_description: Project documentation with Markdown.
-site_author: MkDocs Team
+site_author: Monero Community
 
 repo_url: https://github.com/plowsof/md/
 edit_uri: blob/latest_mkdocs_test/docs/
 
 theme:
   name: material
-  custom_dir: mkdocs-material/material/overrides
+  #custom_dir: mkdocs-material/material/overrides
   features:
     - announce.dismiss
     - content.action.edit
@@ -62,6 +62,7 @@ theme:
   favicon: assets/favicon.png
   icon:
     logo: logo
+  logo: images/logo.png
 
 nav:
   - Home: 'index.md'
@@ -134,7 +135,7 @@ markdown_extensions:
       repo: mkdocs
   - mkdocs-click
 
-copyright: Copyright &copy; 2014 <a href="https://twitter.com/starletdreaming">Tom Christie</a>, Maintained by the <a href="/about/release-notes/#maintenance-team">MkDocs Team</a>.
+copyright: Copyright &copy; Monero Community. Contributors referenced under each file. Content is MIT Licensed.
 
 hooks:
   - docs/hooks.py
