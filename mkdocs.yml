@@ -121,7 +121,7 @@ exclude_docs: |
 
 markdown_extensions:
   - toc:
-      permalink: 
+      permalink: true
   - attr_list
   - def_list
   - tables
