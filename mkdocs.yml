@@ -134,6 +134,8 @@ markdown_extensions:
       user: mkdocs
       repo: mkdocs
   - mkdocs-click
+  - admonition
+  - pymdownx.details
 
 copyright: Copyright &copy; Monero Community. Contributors referenced under each file. Content is MIT Licensed.
 
