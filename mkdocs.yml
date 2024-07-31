@@ -4,7 +4,7 @@ site_description: Project documentation with Markdown.
 site_author: Monero Community
 
 repo_url: https://github.com/plowsof/md/
-edit_uri: blob/latest_mkdocs_test/docs/
+edit_uri: blob/latest_mkdocs_test_po4a/docs/
 
 theme:
   name: material
@@ -146,12 +146,12 @@ plugins:
   #coolify does not clone the git repo deep enough
   #or issues with docker not copying .git folder
   - privacy
-  - git-committers:
-      repository: plowsof/md
-      branch: latest_mkdocs_test
-      token: !ENV ["GH_TOKEN"]
+  #- git-committers:
+  #    repository: plowsof/md
+  #    branch: latest_mkdocs_test
+  #    token: !ENV ["GH_TOKEN"]
   - i18n:
-      #docs_structure: folder
+      docs_structure: folder
       fallback_to_default: true
       reconfigure_material: true
       reconfigure_search: true
