@@ -151,19 +151,22 @@ plugins:
       branch: latest_mkdocs_test
       token: !ENV ["GH_TOKEN"]
   - i18n:
-      docs_structure: folder
+      #docs_structure: folder
       fallback_to_default: true
       reconfigure_material: true
       reconfigure_search: true
       languages:
         - locale: en
+          name: English
+          build: true
           default: true
-          name: Testing
+        - locale: fr
+          name: Français
           build: true
-          site_name: ""
-        - locale: es
-          name: Test
-          build: true
+        - locale: "null"
+          name: Help translating
+          build: false
+          fixed_link: https://spaceship-prompt.sh/contribute/?h=trans#Translating
   #- i18n:
   #    docs_structure: folder
   #    languages:
