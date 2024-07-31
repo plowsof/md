@@ -20,19 +20,21 @@ msgstr ""
 #: ../docs/en/cryptography/introduction.md:1
 #, no-wrap
 msgid "Cryptography in Monero"
-msgstr ""
+msgstr "Cryptographie dans Monero"
 
 #. type: Title #
 #: ../docs/en/cryptography/introduction.md:4
 #, no-wrap
 msgid "Cryptography in Monero "
-msgstr ""
+msgstr "Cryptographie dans Monero"
 
 #. type: Plain text
 #: ../docs/en/cryptography/introduction.md:7
 msgid ""
 "Monero uses a wide variety of cryptographic primitives for various use cases."
 msgstr ""
+"Monero utilise une grande variété de primitives cryptographiques pour divers "
+"cas d'utilisation."
 
 #. type: Plain text
 #: ../docs/en/cryptography/introduction.md:9
@@ -40,6 +42,8 @@ msgid ""
 "Comparing to altcoins, Monero cryptography is considered conservative, sound "
 "and robust."
 msgstr ""
+"Comparée aux altcoins, la cryptographie de Monero est considérée comme "
+"conservatrice, solide et robuste."
 
 #. type: Plain text
 #: ../docs/en/cryptography/introduction.md:11
@@ -49,3 +53,7 @@ msgid ""
 "choices are deliberately non-standard (for better or worse) - oftentimes a "
 "legacy of the CryptoNote protocol."
 msgstr ""
+"Comparé au Bitcoin, Monero utilise beaucoup plus de primitives, et certaines "
+"sont plus avancées, notamment celles liées à la confidentialité et à la Preuve "
+"de Travail. Certains choix sont délibérément non standards (pour le meilleur ou "
+"pour le pire) - souvent un héritage du protocole CryptoNote."
