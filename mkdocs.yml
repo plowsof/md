@@ -148,7 +148,7 @@ plugins:
   - privacy
   - git-committers:
       repository: plowsof/md
-      branch: latest_mkdocs_test
+      branch: sanity
       token: !ENV ["GH_TOKEN"]
   - i18n:
       docs_structure: folder
