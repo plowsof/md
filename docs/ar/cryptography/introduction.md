@@ -1,15 +1,14 @@
 ---
-title: 'Cryptography in Monero'
+title: 'التشفير في مونيرو'
 ---
-# Cryptography in Monero 
+# التشفير في مونيرو
 
-Monero uses a wide variety of cryptographic primitives for various use
-cases.
+تستخدم مونيرو مجموعة متنوعة من المبادئ الأساسية للتشفير لمختلف الاستخدامات.
 
-Comparing to altcoins, Monero cryptography is considered conservative, sound
-and robust.
+بالمقارنة مع العملات الرقمية البديلة، يعتبر تشفير مونيرو محافظًا وقويًا
+ومتينًا.
 
-Comparing to Bitcoin, Monero uses much more primitives, and some of them are
-more advanced, especially those related to privacy and Proof of Work.  Some
-choices are deliberately non-standard (for better or worse) - oftentimes a
-legacy of the CryptoNote protocol.
+بالمقارنة مع البيتكوين، تستخدم مونيرو عددًا أكبر من المبادئ الأساسية، وبعضها
+أكثر تقدمًا، خاصةً فيما يتعلق بالخصوصية وإثبات العمل. بعض الاختيارات غير
+قياسية عن قصد (سواء للأفضل أو للأسوأ) - وغالبًا ما تكون من تراث بروتوكول
+CryptoNote.

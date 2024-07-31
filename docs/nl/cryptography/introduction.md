@@ -1,15 +1,15 @@
 ---
-title: 'Cryptography in Monero'
+title: 'Cryptografie in Monero'
 ---
-# Cryptography in Monero 
+# Cryptografie in Monero
 
-Monero uses a wide variety of cryptographic primitives for various use
-cases.
+Monero gebruikt een grote verscheidenheid aan cryptografische principes voor
+verschillende toepassingen.
 
-Comparing to altcoins, Monero cryptography is considered conservative, sound
-and robust.
+In vergelijking met altcoins wordt de cryptografie van Monero als
+conservatief, solide en robuust beschouwd.
 
-Comparing to Bitcoin, Monero uses much more primitives, and some of them are
-more advanced, especially those related to privacy and Proof of Work.  Some
-choices are deliberately non-standard (for better or worse) - oftentimes a
-legacy of the CryptoNote protocol.
+In vergelijking met Bitcoin gebruikt Monero veel meer principes, en sommige
+zijn geavanceerder, vooral die met betrekking tot privacy en Proof of
+Work. Sommige keuzes zijn opzettelijk niet-standaard (ten goede of ten
+kwade) - vaak een nalatenschap van het CryptoNote-protocol.
