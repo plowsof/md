@@ -152,14 +152,28 @@ plugins:
       token: !ENV ["GH_TOKEN"]
   - i18n:
       docs_structure: folder
+      fallback_to_default: true
+      reconfigure_material: true
+      reconfigure_search: true
       languages:
-          - locale: en
-            default: true
-            name: English
-            build: true
-          - locale: es
-            name: Español
-            build: true
+        - locale: en
+          default: true
+          name: Testing
+          build: true
+          site_name: ""
+        - locale: es
+          name: Test
+          build: true
+  #- i18n:
+  #    docs_structure: folder
+  #    languages:
+  #        - locale: en
+  #          default: true
+  #          name: English
+  #          build: true
+  #        - locale: es
+  #          name: Español
+  #          build: true
   - git-revision-date-localized
   - search
   - redirects:
