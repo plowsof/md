@@ -151,7 +151,7 @@ plugins:
       branch: latest_mkdocs_test
       token: !ENV ["GH_TOKEN"]
   - i18n:
-      docs_structure: suffix
+      docs_structure: folder
       languages:
         - locale: en
           default: true
@@ -160,6 +160,46 @@ plugins:
         - locale: fr
           name: Français
           build: true
+        - locale: es
+          name: Español
+          build: true
+        - locale: it
+          name: Italiano
+          build: true
+        - locale: pl
+          name: Polski
+          build: true
+        - locale: ar
+          name: العربية
+          build: true
+        - locale: ru
+          name: Русский
+          build: true
+        - locale: de
+          name: Deutsch
+          build: true
+        - locale: nl
+          name: Nederlands
+          build: true
+        - locale: pt
+          name: Português
+          build: true
+        - locale: tr
+          name: Türkçe
+          build: true
+        - locale: zh
+          name: 中文 (简体)
+          build: true
+        - locale: zh-TW
+          name: 中文 (繁體)
+          build: true
+        - locale: nb
+          name: Norsk Bokmål
+          build: true
+        - locale: "null"
+          name: Help translating
+          build: false
+          fixed_link: https://translate.getmonero.org
   - git-revision-date-localized
   - search
   - redirects:

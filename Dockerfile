@@ -24,7 +24,7 @@ RUN git fetch --all
 
 # Checkout the branch specified by COOLIFY_BRANCH
 #RUN git checkout -f ${COOLIFY_BRANCH}
-RUN git checkout -f latest_mkdocs_test
+RUN git checkout -f sanity
 
 RUN pip install mkdocs mkdocs-minify-plugin markdown-callouts mdx_gh_links mkdocs-click mkdocs-redirects mkdocs-autorefs mkdocs-literate-nav mkdocstrings[python] mkdocs-git-committers-plugin-2 mkdocs-static-i18n[material] mkdocs-git-revision-date-localized-plugin
 
